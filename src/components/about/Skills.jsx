@@ -33,7 +33,7 @@ const Skills = () => {
       lg:bg-circularLightSm lg:bg-circularDarkSm"
       >
         <motion.div
-          className="cursor-pointer flex items-center justify-center rounded-full font-semibold bg-black text-white p-8 shadow-black lg:p-6 md:p-4 xs:text-xs xs:p-2"
+          className="cursor-pointer flex items-center justify-center rounded-full font-semibold bg-black sm:dark:text-black md:dark:text-black text-white p-8 shadow-black lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
           CAD
