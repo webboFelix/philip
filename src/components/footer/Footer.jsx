@@ -205,7 +205,7 @@ const Footer = () => {
                     <a
                       href="https://www.fb.com/l/6lp1kJRRR"
                       className="hover:text-blue-500 hover:text-3xl transition-all duration-300"
-                      onMouseEnter={() => handleMouseEnter("GitHub")}
+                      onMouseEnter={() => handleMouseEnter("Facebook")}
                       onMouseLeave={handleMouseLeave}
                     >
                       <img
@@ -226,7 +226,7 @@ const Footer = () => {
                     <a
                       href="https://x.com/philipc34495885?s=08"
                       className="hover:text-blue-500 hover:text-3xl transition-all duration-300"
-                      onMouseEnter={() => handleMouseEnter("GitHub")}
+                      onMouseEnter={() => handleMouseEnter("Twitter")}
                       onMouseLeave={handleMouseLeave}
                     >
                       <TwitterIcon />
