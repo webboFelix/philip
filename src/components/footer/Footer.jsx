@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="flex mx-5 justify-between items-center sm:flex-col">
           <img
             src="./balaka.png"
-            className="w-32 h-32 rounded-full flex-shrink-0 "
+            className="w-32 h-32 rounded-full flex-shrink-0 border-4 border-solid-cyan-900"
             alt="footerImage"
           />
           <motion.div className="flex flex-col my-5">
@@ -113,10 +113,10 @@ const Footer = () => {
                 href="#"
                 className="text-bold bg-gradient-to-r from-blue-500 via-slate-500 to-purple-500 bg-clip-text tracking-wide text-transparent"
               >
-                CHARLES GITHINJI.
+                PHILIP BALAKA.
               </a>
             </h1>
-            <h4>Cybersecurity Enthusiast.</h4>
+            <h4>Civil Engineer.</h4>
           </div>
         </div>
         <hr className="w-full h-5 my-4" />

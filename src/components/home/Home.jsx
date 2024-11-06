@@ -14,11 +14,11 @@ const Home = () => {
       <div className="flex items-center text-black dark:text-white w-full">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/3 md:w-full">
+            <div className="w-1/2 md:w-full">
               <img
-                src="./balaka.png"
+                src="./balaka3.png"
                 alt="profile"
-                className="w-full h-auto rounded-b-full lg:hidden md:inline-block md:w-full "
+                className="w-full h-auto lg:hidden md:inline-block md:w-full "
                 sizes="
         (max-width: 600px) 100vh,
         (max-width: 1200px) 50vh,

@@ -71,7 +71,7 @@ const Skills = () => {
                   className="animate-bounce"
                 />
                 <p>
-                  Advanced software designer with prolific expertise in
+                  advanced structural designer with prolific expertise in
                   Protastructure software.
                 </p>
               </li>
