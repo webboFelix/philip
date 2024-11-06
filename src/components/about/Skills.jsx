@@ -6,7 +6,7 @@ import AnimatedComponent from "../animations/AnimatedComponent";
 const Tech = ({ name, x, y }) => {
   return (
     <motion.div
-      className="cursor-pointer flex items-center justify-center rounded-full font-semibold bg-black text-white py-3 px-6 shadow-black absolute lg:py-2 lg:px-4 md:text-sm mdLpy-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-black xs:dark:text-white xs:font-bold"
+      className="cursor-pointer flex items-center justify-center rounded-full font-semibold bg-black text-white py-3 px-6 shadow-black absolute lg:py-2 lg:px-4 md:text-sm mdLpy-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent sm:dark:text-black md:dark:text-black xs:text-black xs:dark:text-white xs:font-bold"
       whileHover={{ scale: 1.05 }}
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y, transition: { duration: 1.5 } }}
@@ -33,7 +33,7 @@ const Skills = () => {
       lg:bg-circularLightSm lg:bg-circularDarkSm"
       >
         <motion.div
-          className="cursor-pointer flex items-center justify-center rounded-full font-semibold bg-black sm:dark:text-black md:dark:text-black text-white p-8 shadow-black lg:p-6 md:p-4 xs:text-xs xs:p-2"
+          className="cursor-pointer flex items-center justify-center rounded-full font-semibold bg-black  text-white p-8 shadow-black lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
           CAD
